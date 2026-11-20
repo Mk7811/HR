@@ -1,0 +1,13 @@
+{
+  "name": "peopleflow-hr-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Policy-led HR Agent with SQLite persistence",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/security.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
